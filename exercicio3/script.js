@@ -1,9 +1,11 @@
 //exercico 3
 
 
-const array = ['dream', 'desire', 'death', 'dispair', 'lucifer']
-
-for(i of array){
-    console.log(`${[i]}`)
+const ranking = ['dream', 'desire', 'death', 'dispair', 'lucifer']
+let k = 0
+for(let j of ranking){
+    k += 1
+    console.log( ` ${k} - ${j}` )
+   
 }
 
