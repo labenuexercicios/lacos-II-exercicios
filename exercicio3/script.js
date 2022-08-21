@@ -5,7 +5,5 @@ let cont = 1
     for (let i of prioridades) {
         console.log(`${cont}: ${i};`);
         cont += 1;
-    }        
+    };
     
-
-
