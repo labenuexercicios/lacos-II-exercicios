@@ -5,3 +5,12 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for (let i = 0; i < array.length; i++) {
+    string = `jogador ${[i + 1]}:`;
+    // console.log(string)
+    for (let j = 0; j < array.length; j++) {
+        string += ` ${array[i][j]}`
+    }
+    console.log(string)
+}
