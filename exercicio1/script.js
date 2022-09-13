@@ -7,5 +7,7 @@ const array = [
 ]
 
 for (let i in array){
-    console.log(`Jogador ${i+1}: ${array[i] + 1} `)
-}
+    for (let j of array){
+    console.log(`Jogador ${Number(i)+1}: ${array[i] + 1}.`)
+}}
+
