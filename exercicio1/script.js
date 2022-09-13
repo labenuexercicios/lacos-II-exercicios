@@ -5,3 +5,11 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+for (let i in array){
+    let jogador = `Jogador ${(Number(i)+1)}: `
+    for(let valor of array[i]){
+        jogador += valor + ","
+    }
+    console.log(jogador.substring(0,jogador.length-1));
+}
