@@ -5,3 +5,6 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+for (jogador = 0; jogador < array.length; jogador++) {
+    console.log(`Jogador ${jogador + 1}: gols na temporada - ${array[jogador]}`)
+}
