@@ -6,8 +6,8 @@ Crie um array com 5 strings. Faça um programa que percorra este array e imprima
 **Utilize o for...of para resolver**
 ```jsx
 //entrada
-const maioresPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"];
-
+ maioresPaises = ["Rússia", "Canadá", "China", "EUA", "Brasil"];
+const
 //saída
 "1 - Rússia"
 "2 - Canadá"
