@@ -14,5 +14,5 @@ for (let i = 0; i < array.length; i++) {
 
     }
     console.log(`Jogador ${i+1}, fez ${jogadorGols} gols nas ultimas 5 temporadas!!`)
-}
+};
 

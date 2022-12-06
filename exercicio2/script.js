@@ -6,4 +6,4 @@ console.log(`Tabuada de ${input}`)
 for (const chave in indicesX) {
     console.log(`${input} X ${indicesX[chave]} = ${input*indicesX[chave]}`)
         
-    }
+    };
