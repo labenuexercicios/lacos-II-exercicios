@@ -5,3 +5,6 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+for (let jogador of array){
+    console.log(`jogador ${array.indexOf(jogador)+1}: ${jogador}\n`)
+}
