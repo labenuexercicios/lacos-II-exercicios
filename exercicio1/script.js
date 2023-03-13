@@ -5,3 +5,10 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+
+
+for (let jogador = 0, num = 0; jogador<array.length; jogador++, num++){
+    console.log(`Jogador ${jogador+1}: ${array[num]}`)
+    
+}
