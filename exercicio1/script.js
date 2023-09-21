@@ -1,3 +1,5 @@
+
+
 const array = [
     [27, 4, 20, 13, 14],
     [11, 15, 12, 8, 9],
@@ -5,3 +7,13 @@ const array = [
     [20, 33, 11, 12, 19],
     [3, 3, 4, 5, 10]
 ]
+
+ for ( let i = 0; i < array.length; i++){
+     let jogador = array[i]
+    for (let j = 0; j < array.length; j++){
+       //console.log(array[i][j])
+     }
+
+     console.log(`Jogador ${i + 1}: ${jogador}`)
+ }
+
