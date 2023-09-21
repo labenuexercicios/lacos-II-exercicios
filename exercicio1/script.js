@@ -10,10 +10,11 @@ const array = [
 
  for ( let i = 0; i < array.length; i++){
      let jogador = array[i]
-    for (let j = 0; j < array.length; j++){
-       //console.log(array[i][j])
+     console.log(`Jogador ${i + 1}`)
+    for (let j = 0; j < jogador.length; j++){
+       console.log(`temporada ${j + 1}: ${jogador[j]}`)
      }
-
-     console.log(`Jogador ${i + 1}: ${jogador}`)
+console.log("------")
+     
  }
 
